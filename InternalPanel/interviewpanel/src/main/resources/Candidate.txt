@@ -1,0 +1,1 @@
+{"yash@gmail.com":{"name":"Yash","email":"yash@gmail.com","phoneNo":8901234567,"location":"Chennai","degree":"BE(CSE)","seleced":false}}
