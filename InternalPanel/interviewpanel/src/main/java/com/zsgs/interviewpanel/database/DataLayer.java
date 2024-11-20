@@ -52,7 +52,7 @@ public class DataLayer
       candidate.put(user.getEmail(),user);
    }
    
-   private String candidateFileName = "/home/gowsalya/Gowsalya/InternalPanel/interviewpanel/src/main/resources/Candidate.txt"; 
+   private String candidateFileName = "InternalPanel/interviewpanel/src/main/resources/Candidate.txt"; 
 	Path filePath = Path.of(candidateFileName);
 	public void pushUserDataToJSON() 
 	{
@@ -89,7 +89,7 @@ public class DataLayer
 			System.err.println("File not found: " + candidateFileName);
 		}
 	}
-   private String hrFileName = "/home/gowsalya/Gowsalya/InternalPanel/interviewpanel/src/main/resources/Hr.txt"; 
+   private String hrFileName = "InternalPanel/interviewpanel/src/main/resources/Hr.txt"; 
 	Path filePath1 = Path.of(hrFileName);
 	public void pushHrDataToJSON() 
 	{
@@ -126,7 +126,7 @@ public class DataLayer
 			System.err.println("File not found: " + hrFileName);
 		}
 	}
-   private String interviewsFileName = "/home/gowsalya/Gowsalya/InternalPanel/interviewpanel/src/main/resources/Interview.txt"; 
+   private String interviewsFileName = "InternalPanel/interviewpanel/src/main/resources/Interview.txt"; 
 	Path filePath2 = Path.of(interviewsFileName);
 	public void pushInterviewsDataToJSON() 
 	{
